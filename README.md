@@ -1,1 +1,1 @@
-# Body-Project
+# Buddy-Project
