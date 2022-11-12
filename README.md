@@ -1,4 +1,4 @@
-# Buddy-Project
+# Buddy-Project /// EnvApp
 
 Application Name: Env-App
 
