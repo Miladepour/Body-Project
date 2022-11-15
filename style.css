@@ -1,0 +1,242 @@
+:root {
+  --clr-Black: #000;
+  --clr-White: #fff;
+  --clr-primary: #ffffff;
+  --clr-secondary: #845ca8;
+  --clr-green: #1cbe27;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+}
+
+a {
+  color: var(--clr-secondary);
+  text-decoration: none;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--clr-primary);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.logo span {
+  color: var(--clr-green);
+}
+
+.logo img {
+  margin-right: 16px;
+  width: 60px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--clr-secondary);
+  margin-right: 40px;
+}
+
+.nav-links a:hover {
+  color: var(--clr-green);
+}
+
+/* hero */
+.hero {
+  background: url(./img/natur.jpg) center/cover no-repeat;
+  color: var(--clr-White);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 600px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* form */
+.form-section {
+  background-color: var(--clr-secondary);
+  color: white;
+  padding: 20px;
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form-section h2 {
+  text-align: center;
+}
+
+.form-section form {
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, minmax(360px, 400px));
+  gap: 30px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form input {
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+button {
+  align-items: center;
+  background-color: var(--clr-White);
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: var(--clr-secondary);
+  cursor: pointer;
+  display: inline-flex;
+  gap: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  position: relative;
+  transition: all 250ms;
+}
+
+button:hover,
+#file-input::-webkit-file-upload-button:hover {
+  background-color: var(--clr-green);
+  color: var(--clr-White);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  transform: translateY(-1px);
+}
+
+form button span {
+  font-size: 2rem;
+}
+
+#file-input {
+  border: none;
+  color: var(--clr-secondary);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#file-input::-webkit-file-upload-button {
+  background: var(--clr-primary);
+  border: none;
+  cursor: pointer;
+  color: var(--clr-secondary);
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+/* item-container */
+#item-container {
+  padding: 0px 6px 40px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 300px));
+  justify-content: center;
+  row-gap: 26px;
+}
+
+article {
+  color: var(--clr-cream);
+  width: 280px;
+  background-color: var(--clr-primary);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 20px;
+}
+
+article img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+article h3 {
+  background-color: var(--clr-secondary);
+  padding: 10px;
+  color: var(--clr-White);
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
+article div {
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+article div p {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+article div span {
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+article button {
+  display: block;
+  margin: 10px auto;
+  background-color: var(--clr-secondary);
+  color: var(--clr-White);
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--clr-green);
+  color: var(--clr-White);
+}
+
+footer p {
+  font-size: 2.2rem;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .form-section form {
+    grid-template-columns: repeat(1, minmax(360px, 400px));
+  }
+  nav {
+    flex-direction: column;
+  }
+}
