@@ -7,7 +7,7 @@ function items() {
       userName: "Milad",
       postCode: "M20 2WG",
       contactNumber: "073333220132",
-      imgUrl: "https://i.imgur.com/6QCf2R2.jpg",
+      imgUrl: "./img/items-images/table.jpg",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ function items() {
       userName: "Maziar",
       postCode: "M13 9GL",
       contactNumber: "0771976662",
-      imgUrl: "https://i.imgur.com/78VwBvM.jpg",
+      imgUrl: "./img/items-images/kitchen-cupboard.jpg",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ function items() {
       userName: "Mohammed",
       postCode: "M14 9PW",
       contactNumber: "0700129345",
-      imgUrl: "https://i.imgur.com/iv8pkD8.jpg",
+      imgUrl: "./img/items-images/old-tv.jpg",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ function items() {
       userName: "Milad",
       postCode: "M20 2WG",
       contactNumber: "073333220132",
-      imgUrl: "https://i.imgur.com/0VEegNU.jpg",
+      imgUrl: "./img/items-images/dress.jpg",
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ function items() {
       userName: "Maziar",
       postCode: "M13 9GL",
       contactNumber: "0771976662",
-      imgUrl: "https://i.imgur.com/zRSg5uA.jpg",
+      imgUrl: "./img/items-images/laptop.jpg",
     },
     {
       id: 6,
@@ -52,7 +52,7 @@ function items() {
       userName: "Mohammed",
       postCode: "M14 9PW",
       contactNumber: "0700129345",
-      imgUrl: "https://i.imgur.com/vQTY3Pl.jpg",
+      imgUrl: "./img/items-images/mobile.jpg",
     },
     {
       id: 7,
@@ -61,7 +61,7 @@ function items() {
       userName: "Milad",
       postCode: "M20 2WG",
       contactNumber: "073333220132",
-      imgUrl: "https://i.imgur.com/2NRygpJ.jpg",
+      imgUrl: "./img/items-images/sofa.jpg",
     },
     {
       id: 8,
@@ -70,7 +70,7 @@ function items() {
       userName: "Maziar",
       postCode: "M13 9GL",
       contactNumber: "0771976662",
-      imgUrl: "https://i.imgur.com/Q1FIW9F.jpg",
+      imgUrl: "./img/items-images/airpods.jpg",
     },
     {
       id: 9,
@@ -79,7 +79,7 @@ function items() {
       userName: "Mohammed",
       postCode: "M14 9PW",
       contactNumber: "0700129345",
-      imgUrl: "https://i.imgur.com/UudH2Ai.jpg",
+      imgUrl: "./img/items-images/xbox.jpg",
     },
     {
       id: 10,
@@ -88,7 +88,7 @@ function items() {
       userName: "Milad",
       postCode: "M20 2WG",
       contactNumber: "073333220132",
-      imgUrl: "https://i.imgur.com/VL1ZOO3.jpg",
+      imgUrl: "./img/items-images/xbox-controller.jpg",
     },
   ];
 }
